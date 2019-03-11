@@ -1,3 +1,13 @@
-body {
-    font-family: 'Archivo', sans-serif;
+h1, h3 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 230%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
 }
