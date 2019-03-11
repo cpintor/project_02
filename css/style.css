@@ -2,6 +2,7 @@
     position: fixed;
     top: 0%;
     width: 100%;
+    background-color: aquamarine;
 }
 
 .menu .sub {
@@ -21,9 +22,7 @@ h1, h3 {
 
 
 .content {
-    width: 90%;
-    margin: 0 auto;
-    text-align: left;
     font-family: 'Raleway', sans-serif;
     font-size: 90%;
+    margin: 8% 0 0 0;
 }
