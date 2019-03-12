@@ -80,7 +80,7 @@ h2.hello {
     max-height: 100%
 }
 
-#grad2 {
+.grad2 {
     background-color: rgb(0, 238, 255); /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, rgb(198, 250, 253), rgb(229, 195, 255)); /* Standard syntax (must be last) */
   }
