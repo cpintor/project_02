@@ -2,27 +2,49 @@
     position: fixed;
     top: 0%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: white;
+    border-bottom: .1vh solid black;
 }
 
-.menu .sub {
-    left: 80%;
-    top: 1%;
+.menu-wrapper {
+    margin: 0% 0% -1% 0%;
+    text-align: left;
+    border-bottom: .1vh solid green;
 }
 
-h1, h3 {
+h1 {
     font-family: 'Abril Fatface', cursive;
+    font-size: 200%;
+}
+
+button {
+    text-align: center;
+    margin: 0% 5%;
+    font-size: 50%;
+    font-family: 'Abril Fatface', cursive;
+    background-color: none;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    background-color: none;
+    border-bottom: .1vh solid black;
+}
+
+a {
+    text-decoration: none;
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    text-align: left;
 }
-
 
 .content {
     font-family: 'Raleway', sans-serif;
     font-size: 90%;
-    margin: 8% 0 0 0;
+    background-color: rgb(231, 231, 231);
+    margin: 8% 0% 0% 0%;
 }
+
