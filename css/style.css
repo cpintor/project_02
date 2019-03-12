@@ -29,7 +29,6 @@ button {
 }
 
 button:hover {
-    background-color: none;
     border-bottom: .1vh solid black;
 }
 
