@@ -59,8 +59,9 @@ p {
     margin-bottom: 1%;
 }
 
-p.hello {
-    font-size: 250%
+h2.hello {
+    font-size: 250%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .content {
