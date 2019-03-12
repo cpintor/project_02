@@ -39,6 +39,13 @@ a {
 .wrapper {
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
+    padding-bottom: 30%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
 }
 
 .content {
@@ -46,5 +53,12 @@ a {
     font-size: 90%;
     background-color: rgb(231, 231, 231);
     margin: 8% 0% 0% 0%;
+    border: 1px solid blue;
+}
+
+.img1 {
+    margin-top: 1%;
+    padding-right: 10%; 
+    float: right;
 }
 
