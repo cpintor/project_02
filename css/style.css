@@ -15,7 +15,7 @@
 
 h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 button {
@@ -35,6 +35,10 @@ button:hover {
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: rgb(46, 46, 46);
 }
 
 .wrapper {
@@ -87,19 +91,40 @@ hr {
 /* resume buttons */
 .btn {
     padding-top: 2.5%;
-    background-image:url('https://img.icons8.com/nolan/40/000000/department.png') !important;
+    background-image:url('https://img.icons8.com/nolan/50/000000/department.png') !important;
     background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
     }
 .btn2 {
     padding-top: 2.5%;
-    background-image:url('https://img.icons8.com/nolan/40/000000/mailbox-closed-flag-down.png') !important;
+    background-image:url('https://img.icons8.com/nolan/50/000000/send.png') !important;
     background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
 }  
 
 .btn3 {
     padding-top: 2.5%;
-    background-image:url('https://img.icons8.com/nolan/40/000000/linkedin.png') !important;
+    background-image:url('https://img.icons8.com/nolan/50/000000/linkedin.png') !important;
     background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.button4 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.button4:hover {
+    border: 2px solid blue;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* resume headlines */
+h3 {
+    text-decoration: underline;
 }
 
 /* gallery photos */
@@ -109,8 +134,8 @@ hr {
   
   .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 50%;
+    padding: 5%;
   }
   
   /* Clearfix (clear floats) */
@@ -125,4 +150,8 @@ hr {
     .column {
       width: 100%;
     }
+  }
+
+  .gallery:hover {
+      border: 5px solid blue;
   }
