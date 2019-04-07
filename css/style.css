@@ -1,17 +1,44 @@
 .menu {
     position: fixed;
-    top: 0%;
     width: 100%;
-    margin-left: -.5%;
+    height: 10%;
+	top: 0%;
+	left: 0%;
+    padding: 0%;
     background-color: white;
     border-bottom: .1vh solid black;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
 }
 
-.menu-wrapper {
-    margin: 0% 0% -1% 0%;
-    text-align: left;
+#navbar-container{
+    position: fixed;
+    display: block;
+    left: 50%;
+    float: left;
+    /*margin: 0% 0% -1% 0%;
+    text-align: left;*/
     /*border-bottom: .1vh solid green;*/
 }
+
+#navbar-container ul {
+    position: fixed;
+    float: left;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 50%;
+}
+
+#navbar-container ul li {
+    float: left;
+    padding: 10px 20px;
+}
+
+#navbar-container ul li a {
+}
+
 
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -49,6 +76,7 @@ a:visited {
 
 body {
     background-color: rgb(245, 245, 245);
+    margin: 0%;
 }
 
 
@@ -87,6 +115,10 @@ h2.hello {
 .grad2 {
     background-color: rgb(0, 238, 255); /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, rgb(198, 250, 253), rgb(229, 195, 255)); /* Standard syntax (must be last) */
+  }
+
+  .resumeRelative {
+      padding: 2%;
   }
 
 hr {
@@ -157,6 +189,9 @@ h3 {
     }
   }
 
+  .gallery {
+      width: 100%;
+  }
+
   .gallery:hover {
-      border: 5px solid blue;
   }
