@@ -201,7 +201,6 @@ h3 {
 	}
 
 .underline {
-  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 3px 3px;
